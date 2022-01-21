@@ -1,0 +1,191 @@
+/*------------------------BLOCK FUTER----------------------*/
+footer {
+  background: var(--dg-sacond-color);
+}
+.fut-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: auto;
+  margin: 0px auto;
+}
+.footerbox__foot-link {
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.footerbox__foot-logo {
+  color: var(--hov-foc-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footerbox__foot-logoand {
+  color: var(--main-bg-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+
+  &:hover,
+  &:focus {
+    color: var(--hov-foc-color);
+  }
+}
+.footerbox__foot-address {
+  color: var(--main-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+.footerbox__foot-mail-tel {
+  list-style: none;
+}
+
+.footerbox__foot-mail-com {
+  color: var(--text-rgb-a);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+
+  &:hover,
+  &:focus {
+    color: var(--hov-foc-color);
+  }
+}
+.footerbox__foot-tel-com {
+  color: var(--text-rgb-a);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+
+  &:hover,
+  &:focus {
+    color: var(--hov-foc-color);
+  }
+}
+/* ------------FOOTER blok-connect------------ */
+.blok-connect {
+  border: 1px solid transparent;
+
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+.connekt {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.fut-container {
+  display: flex;
+  align-items: baseline;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.socials__list-fut-li {
+  width: 44px;
+  height: 44px;
+  list-style: none;
+}
+.socials__link-fut-a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  fill: #ffffff;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: var(--hov-foc-color);
+  }
+}
+.socials__icon-fut {
+  width: 20px;
+  height: 20px;
+}
+/* ------------FOOTER blok-futcon----------- */
+.blok-futcon {
+  border: 1px solid transparent;
+
+  width: auto;
+  height: 86px;
+  margin-left: 93px;
+}
+
+.footer-sect__futimp {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  color: var(--text-bg-dop);
+}
+
+.footer-sect__but-futsend {
+  color: var(--main-bg-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background-color: var(--hov-foc-color);
+  border-radius: 4px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  border: transparent;
+  margin-left: 0px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+}
+
+.footer-sect__svg-flight {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: var(--text-bg-dop);
+}
+/* ------------FOOTER blok-futcon and----------- */
+/*---------------BLOCK FOOTER AND------------------*/

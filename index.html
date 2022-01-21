@@ -1,0 +1,688 @@
+<!------------------START ------------------------>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Document</title>
+  
+  
+  </head>
+</head>
+
+<body>
+<!------------------------AND----------------------------->
+<!------------------ BLOCK NAVIGATION -------------------->
+
+  <header class="header-nav container">
+
+    <nav class="main-nav">
+      
+
+      <a href="/" class="link-studio"> <span class="logoone">Web</span><span class="logoand">Studio</span></a>
+
+      <ul class="navbox">
+        <li><a href="./index.html" class="navbox__link navbox__boxin navbox--current">Студия</a></li>
+        <li><a href="./portfolio.html" class="navbox__link navbox__boxin ">Портфолио</a></li>
+        <li><a href="" class="navbox__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <ul class="contact">
+      <li class="contact__linka"><a href="mailto:info@devstudio.com " class="navbox__link">
+
+
+          <svg class="contact__telsvg">
+
+            <use href="images/symbol-defs.svg#icon-mail"></use>
+
+          </svg>
+
+
+
+          info@devstudio.com</a></li>
+        <li class="contact__linka"><a href="tel:+380961111111" class="navbox__link">
+
+
+          <svg class="contact__phonesvg">
+
+            <use href="images/symbol-defs.svg#icon-phone"></use>
+
+          </svg>
+
+             +38 096 111 11 11</a></li>
+    </ul>
+    
+  </header>
+
+<!---------------- BLOCK NAVIGATION AND ------------------------>
+  
+ <!------------------- BLOCK SOLUTIONS ------------------------>
+
+  <section class="solutions">
+
+
+    <h1 class="solution-business">
+      Эффективные решения для вашего бизнеса
+    </h1>
+    <button data-modal-open type="button" class="ordservis">Заказать услугу</button>
+
+
+
+
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+
+
+
+<!------------------ BLOCK SOLUTIONS modal ------------------------>
+
+
+        <form class="formfild">
+
+          <div class="formfild__form-grup">
+            <p class="formfild__modform">Оставьте свои данные, мы вам перезвоним</p>
+          </div>
+
+          <div class="formfild__form-grup">
+
+            <label class="formfild__text-label" for="name">Имя</label>
+
+            <div class="formfild__mail-div">
+
+              <input type="text" class="formfild__testone" name="name" id="name" placeholder=" ">
+
+
+              <svg class="formfild__fon">
+                <use href="./images/symbolblmn.svg#icon-blackmannew"></use>
+              </svg>
+            </div>
+
+
+
+          </div>
+
+          <div class="formfild__form-grup">
+            <label for="tel">Телефон</label>
+            <div class="formfild__mail-div">
+              <input type="tel" class="formfild__testone" name="tel" id="tel" placeholder=" ">
+
+              <svg class="formfild__fon">
+                <use href="./images/symbol-newt.svg#icon-telefon"></use>
+              </svg>
+            </div>
+          </div>
+
+
+          <div class="formfild__form-grup">
+            <label for="name">Почта</label>
+            <div class="formfild__mail-div">
+              <input type="email" class="formfild__testone" name="mail" id="mail" placeholder=" ">
+
+              <svg class="formfild__fon">
+                <use href="./images/symbol-newt.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="formfild__form-grup">
+            <label for="comment">Комментарий</label>
+
+
+            <textarea name="comment" id="comment" cols="50" rows="7" placeholder="Введите текст"></textarea>
+          </div>
+
+
+          <label class="formfild__task">
+            <input class="formfild__kvadrat" type="checkbox">
+            <span class="formfild__chekblue"></span>
+            <span class="formfild__sogltex">Соглашаюсь с рассылкой и принимаю <a href="" class="formfild__yslovi">Условия
+                договора</a></span>
+
+          </label>
+
+
+
+             <button type="submit" class="formfild__but-send">Отправить</button>
+
+
+        </form>
+
+
+
+        <button data-modal-close class="formfild__closebat">
+          <svg class="formfild__closesvg">
+            <use href="./images/symbol-closes.svg#icon-vector"></use>
+          </svg>
+        </button>
+
+
+      </div>
+    </div>
+  </section>
+<!------------------ BLOCK SOLUTIONS modal and ------------------------>
+ <!------------------- Блок SOLUTiONS AND ------------------------>
+
+
+ <!---------------------BLOCK PROPERTY----------------------->
+  <!--Не должен отображатся заголовок Особенностиh2> -->
+  <section class="box-section">
+
+    <div class="container">
+      <ul class="module">
+        <li class="module__groop-pec">
+
+          <svg class="module__icomfive">
+            <use href="./images/symbol-defs.svg#icon-tvfours"> </use>
+          </svg>
+
+          <h3 class="module__good-job">Внимание к деталям</h3>
+          <p class="module__exersise">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        </li>
+        <li class="module__groop-pec">
+
+          <svg class="module__icomfive">
+            <use href="./images/symbol-defs.svg#icon-clockfours"> </use>
+          </svg>
+
+          <h3 class="module__good-job">Пунктуальность</h3>
+          <p class="module__exersise">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        </li>
+        <li class="module__groop-pec">
+
+          <svg class="module__icomfive">
+            <use href="./images/symbol-defs.svg#icon-diagramfours"> </use>
+          </svg>
+
+
+          <h3 class="module__good-job">Планирование</h3>
+          <p class="module__exersise">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        </li>
+        <li class="module__groop-pec">
+
+
+          <svg class="module__icomfive">
+            <use href="./images/symbol-defs.svg#icon-astronautfours"> </use>
+          </svg>
+
+
+          <h3 class="module__good-job">Современные технологии</h3>
+          <p class="module__exersise">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+ <!------------------------BLOCK PROPERTY AND---------------------------->
+  
+
+ <!-------------------------BLOCK DO SAMESING---------------------->
+
+  <section class="doing">
+    <div class="container">
+      <h2 class="doing__what-we-are-doing">Чем мы занимаемся</h2>
+      <ul class="doing__doing-foto">
+        <div class="doing__threefoto">
+          <li><img src="./images/whatwearedoing/print.jpg" alt="print" width="370"></li>
+
+
+
+          <div class="doing__adigeja">
+            <p class="doing__chaildplas">Десктопные приложения</p>
+          </div>
+
+
+
+        </div>
+        <div class="doing__threefoto">
+          <li><img src="./images/whatwearedoing/call.jpg" alt="call" width="370"></li>
+          <div class="doing__adigeja">
+            <p class="doing__chaildplas">Мобильные приложения</p>
+          </div>
+        </div>
+        <div class="doing__threefoto">
+          <li><img src="./images/whatwearedoing/staring.jpg" alt="staring" width="370"></li>
+          <div class="doing__adigeja">
+            <p class="doing__chaildplas">Дизайнерские решения</p>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </section>
+
+ <!--------------------BLOCK DO SAMESING AND------------------------->
+  
+ <!-----------------------BLOCK OUR TEAM----------------------->
+
+
+  <section class="partition">
+    <div class="container">
+      <h2 class="doing__what-we-are-doing">Наша команда</h2>
+      <ul class="partition__together-team">
+
+        <li class="partition__portfol">
+          <div class="partition__foto-ouer-team">
+            <img src="./images/ourteam/glassesman.jpg" class="partition__foto-port" alt="glasse sman" width="270" />
+          </div>
+          <div class="partition__divtext">
+            <h3 class="partition__name">Игорь Демьяненко</h3>
+            <p class="partition__prof">Product Designer</p>
+
+
+
+
+
+            
+            <ul class="partition__icomcparens">
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-instagfirst" class="partition__instag"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-sova"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+
+        </li>
+
+
+        <li class="partition__portfol">
+          <div class="partition__foto-ouer-team">
+            <img src="./images/ourteam/glassesgirl.jpg" class="partition__foto-port" alt="glasses girl" width="270" />
+          </div>
+          <div class="partition__divtext">
+            <h3 class="partition__name">Ольга Репина</h3>
+            <p class="partition__prof">Frontend Developer</p>
+
+
+
+
+            <ul class="partition__icomcparens">
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-instagfirst" class="partition__instag"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-sova"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+            </ul>
+
+
+
+
+
+          </div>
+        </li>
+
+
+        <li class="partition__portfol">
+          <div class="partition__foto-ouer-team">
+            <img src="./images/ourteam/whiteshirt.jpg" class="partition__foto-port" alt="white shirt" width="270" />
+          </div>
+          <div class="partition__divtext">
+            <h3 class="partition__name">Николай Тарасов</h3>
+            <p class="partition__prof">Marketing</p>
+            <ul class="partition__icomcparens">
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-instagfirst" class="partition__instag"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-sova"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </li>
+
+
+        <li class="partition__portfol">
+          <div class="partition__foto-ouer-team">
+            <img src="./images/ourteam/blackt-shirt.jpg" class="partition__foto-port" alt="black t-shirt" width="270" />
+          </div>
+          <div class="partition__divtext">
+            <h3 class="partition__name">Михаил Ермаков</h3>
+            <p class="partition__prof">UI Designer</p>
+            <ul class="partition__icomcparens">
+              <li class="partition__icomclas">
+                <a class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-instagfirst" class="partition__instag"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-sova"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+
+
+              <li class="partition__icomclas">
+                <a href="" class="partition__icoma">
+                  <svg class="partition__icomhover">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+<!-----------------------BLOCK OUR TEAM AND--------------------->
+
+  <!---------------------BLOCK REGULAR CUSTOMERS--------------------->
+
+
+
+  <section class="section-klient ">
+    <div class="container">
+      <div>
+        <span class="wrapper">Постоянные клиенты</span>
+      </div>
+
+
+      <ul class="division">
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logoone" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+
+
+
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logotwo" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+
+
+
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logothree" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+
+
+
+
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logofourth" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+
+
+
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logofefth" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+
+
+
+        <li class="division__list">
+          <a href="" class="division__link">
+            <svg class="division__icon">
+              <use href="./images/symbol-defs.svg#icon-logosix" class="division__icon-svg"></use>
+            </svg>
+          </a>
+        </li>
+
+      </ul>
+
+   </div>
+  </section>
+<!---------------------BLOCK REGULAR CUSTOMERS AND------------->
+
+  <!----------------------------BLOCK FUTER----------------------->
+  <footer class="fut-box">
+    <div class="container fut-container">
+      <div class="footerbox">
+
+        <a href="/" class="footerbox__foot-link"> <span class="footerbox__foot-logo">Web</span><span class="footerbox__foot-logoand">Studio</span></a>
+        <address class="footerbox__foot-address"> г. Киев, пр-т Леси Украинки, 26 </address>
+        <ul class="footerbox__foot-mail-tel">
+          <li class="footerbox__foot-mail">
+            <a href="mailto:info@devstudio.com" class="footerbox__foot-mail-com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footerbox__foot-tel-com">+38 096 111 11 11</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+<!---------------- FOOTER blok-connect------------------------>
+      
+
+
+      <div class="blok-connect">
+
+        <span class="connekt"> присоединяйтесь </span>
+
+       
+        <ul class="socials">
+          <li class="socials__list-fut-li">
+            <a href="" class="socials__link-fut-a">
+              <svg class="socials__icon-fut">
+                <use href="images/symbol-defs.svg#icon-instagfirst"> </use>
+              </svg>
+            </a>
+          </li>
+
+
+          <li class="socials__list-fut-li">
+            <a href="" class="socials__link-fut-a">
+              <svg class="socials__icon-fut">
+                <use href="images/symbol-defs.svg#icon-sova"> </use>
+              </svg>
+            </a>
+          </li>
+
+
+          <li class="socials__list-fut-li">
+            <a href="" class="socials__link-fut-a">
+              <svg class="socials__icon-fut">
+                <use href="images/symbol-defs.svg#icon-facebook"> </use>
+              </svg>
+            </a>
+          </li>
+
+
+          <li class="socials__list-fut-li">
+            <a href="" class="socials__link-fut-a">
+              <svg class="socials__icon-fut">
+                <use href="images/symbol-defs.svg#icon-linkedin"> </use>
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+
+<!--------- FOOTER blok-connect and--------->
+
+
+<!--------- FOOTER blok-futcon--------->
+      <div class="blok-futcon">
+
+        <span class="connekt">Подпишитесь на рассылку</span>
+ 
+        <div class="footer-sect">
+          <input type="email" class="footer-sect__futimp" name="mail" id="mail" placeholder="E-mail">
+
+
+          <button type="submit" class="footer-sect__but-futsend">Подписаться
+            <svg class="footer-sect__svg-flight">
+
+              <use href="./images/symbol-desam.svg#icon-samolet"></use>
+
+            </svg>
+          </button>
+        </div>
+     </div>
+<!--------- FOOTER blok-futcon and--------->
+    </div>
+  </footer>
+  <script src="./js/modal.js"></script>
+</body>
+</body>
+
+</html>
+<!----------------------BLOCK FOOTER AND----------->

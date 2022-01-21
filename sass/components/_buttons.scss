@@ -1,0 +1,54 @@
+/*----------BLOCK BLOCK BUTTONS PORTFOLIO--------*/
+
+.ouer-work {
+  padding-top: 100px;
+  margin: 0px;
+}
+
+.section-but {
+  padding-top: 100px;
+  padding-bottom: 0;
+  border-top: 1px solid #ececec;
+}
+.pushbutton {
+  list-style: none;
+  min-width: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.pushbutton__butli {
+  margin-right: 8px;
+}
+.pushbutton__mar {
+  margin-right: 0px;
+}
+
+.pushbutton__but {
+  color: var(--text-dec-black);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--text-bg-dop);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--hov-foc-color);
+
+  &:hover,
+  &:focus {
+    color: var(--main-bg-color);
+    background-color: var(--hov-foc-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+/*----------BLOCK BLOCK BUTTONS PORTFOLIO AND--------*/
