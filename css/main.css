@@ -761,18 +761,34 @@ footer {
   margin: 0px auto;
 }
 
+.fut-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footerbox {
+  margin-bottom: 60px;
+}
+
 .footerbox__foot-link {
   text-decoration: none;
   margin-bottom: 20px;
   display: inline-block;
+  margin-left: 43px;
 }
 
 .footerbox__foot-logo {
   color: var(--hov-foc-color);
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
@@ -780,8 +796,8 @@ footer {
   color: var(--main-bg-color);
   font-family: Raleway;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -798,11 +814,12 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footerbox__foot-mail-tel {
   list-style: none;
+  text-align: center;
 }
 
 .footerbox__foot-mail-com {
@@ -842,7 +859,7 @@ footer {
   border: 1px solid transparent;
   width: 206px;
   height: 80px;
-  margin-left: 70px;
+  margin-left: 30px;
 }
 
 .connekt {
@@ -855,6 +872,7 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 15px;
+  margin-left: 27px;
 }
 
 .fut-container {
@@ -921,8 +939,8 @@ footer {
 }
 
 .footer-sect__futimp {
-  width: 358px;
   height: 50px;
+  width: 450px;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
