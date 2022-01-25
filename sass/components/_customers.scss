@@ -1,7 +1,9 @@
 /*-------------------BLOCK REGULAR CUSTOMERS-------------*/
 .section-klient {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .wrapper {
@@ -13,20 +15,31 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .division {
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-around;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: -15px;
+  justify-content: center;
 }
 
 .division__list {
-  display: inline-flex;
-  width: 170px;
+  // display: inline-flex;
+  // width: 170px;
+  width: 210px;
   height: 92px;
   list-style: none;
+
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
 .division__link {
   display: inline-flex;
