@@ -1,3 +1,4 @@
+<!------------------START ------------------------>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -5,59 +6,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
+
+
+</head>
 </head>
 
 <body>
-
-    <!---------------------BLOCK NAVIGATION--------------------->
+    <!------------------------AND----------------------------->
+    <!------------------ BLOCK NAVIGATION -------------------->
 
     <header class="header-nav container">
-    
+
         <nav class="main-nav">
-    
-              
-            <a href="/" class="link-studio"> <span class="logoone">Web</span><span class="logoand">Studio</span></a>
-               
+
+            <div class="mobdiv">
+
+                <a href="/" class="link-studio"> <span class="logoone">Web</span><span class="logoand">Studio</span></a>
+
+
+                <button type="button" class="moddiv_bat is-open" date-menu-button aria-expanded="true">
+                    <svg class="mobdiv_icon" aria-label="переключатель мобильного меню">
+                        <use class="mobdiv_cros" href="images/closlitell.svg#icon-close_litle"></use>
+                        <use class="mobdiv_menu" href="images/symbol-defsу.svg#icon-menu_sticks"></use>
+                    </svg>
+                </button>
+            </div>
+
+
+
             <ul class="navbox">
-                <li><a href="./index.html" class="navbox__link navbox__boxin ">Студия</a></li>
-                <li><a href="./portfolio.html" class="navbox__link navbox__boxin navbox--current">Портфолио</a></li>
+                <li><a href="./portfolio.html" class="navbox__link navbox__boxin navbox--current">Студия</a></li>
+                <li><a href="./index.htm" class="navbox__link navbox__boxin ">Портфолио</a></li>
                 <li><a href="" class="navbox__link">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contact">
             <li class="contact__linka"><a href="mailto:info@devstudio.com " class="navbox__link">
-    
-    
+
+
                     <svg class="contact__telsvg">
-    
+
                         <use href="images/symbol-defs.svg#icon-mail"></use>
-    
+
                     </svg>
-    
-    
-    
+
+
+
                     info@devstudio.com</a></li>
             <li class="contact__linka"><a href="tel:+380961111111" class="navbox__link">
-    
-    
+
+
                     <svg class="contact__phonesvg">
-    
+
                         <use href="images/symbol-defs.svg#icon-phone"></use>
-    
+
                     </svg>
-    
+
                     +38 096 111 11 11</a></li>
         </ul>
-    
-    </header>
- <!-----------------BLOCK NAVIGATION AND-------------------->
 
+    </header>
+
+    <!---------------- BLOCK NAVIGATION AND ------------------------>
 
  <!---------------------BLOCK BUTTONS----------------------->
 
@@ -68,6 +85,7 @@
                 <li class="pushbutton__butli"><button type="button" class="pushbutton__but">Все</button></li>
                 <li class="pushbutton__butli"><button type="button" class="pushbutton__but">Веб-сайты</button></li>
                 <li class="pushbutton__butli"><button type="button" class="pushbutton__but">Приложения</button></li>
+            
                 <li class="pushbutton__butli"><button type="button" class="pushbutton__but">Дизайн</button></li>
                 <li class="pushbutton__butli"><button type="button" class="pushbutton__but pushbutton__mar">Маркетинг</button></li>
             </ul>

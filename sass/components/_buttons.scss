@@ -6,17 +6,21 @@
 }
 
 .section-but {
-  padding-top: 100px;
+  // padding-top: 100px;
   padding-bottom: 0;
   border-top: 1px solid #ececec;
+
+  padding-top: 60px;
 }
 .pushbutton {
   list-style: none;
-  min-width: unset;
+  // min-width: unset;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // margin-bottom: 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 .pushbutton__butli {
   margin-right: 8px;
