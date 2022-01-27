@@ -35,6 +35,12 @@ body {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
 .header-nav {
   background-color: var(--main-bg-color);
   display: -webkit-box;
@@ -115,12 +121,12 @@ body {
   background-color: pink;
 }
 
-.navbox {
+.pi .navbox {
   margin-bottom: 300px;
   border: 2px solid black;
 }
 
-.navbox.is-open {
+.pi.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,8 +248,12 @@ body {
 
 .mobdiv {
   border: 1px solid greenyellow;
+  width: 480px;
   height: 60px;
-  padding-top: 12px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-left: -15px;
+  margin-right: -15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -641,6 +651,12 @@ textarea:hover, textarea:focus {
 .module {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .module {
+    background-color: pink;
+  }
 }
 
 .module__icomfive {
