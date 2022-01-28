@@ -77,6 +77,8 @@
   width: 100%;
   height: 796px;
   background-color: pink;
+  padding-top: 48px;
+  padding-left: 40px;
 }
 
 .navbox {
@@ -119,7 +121,7 @@
   color: var(--text-dec-black);
   text-decoration: none;
   letter-spacing: 0.02em;
-  font-size: 24px;
+  font-size: 40px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
