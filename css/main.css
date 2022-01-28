@@ -1,4 +1,55 @@
 @charset "UTF-8";
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  background-color: white;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --main-bg-color: #ffffff;
+  --dg-sacond-color: #2f303a;
+  --text-main-color: #757575;
+  --hov-foc-color: #2196f3;
+  --hov-foc-exclusiv: #188ce8;
+  --text-dec-black: #212121;
+  --text-rgb-a: rgba(255, 255, 255, 0.6);
+  --text-bg-dop: #f5f4fa;
+}
+
+.container {
+  outline: 1px solid greenyellow;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .header-nav {
   background-color: var(--main-bg-color);
   display: -webkit-box;
@@ -83,7 +134,7 @@
 
 .navbox {
   list-style: none;
-  margin-bottom: 50px;
+  margin-bottom: 115px;
 }
 .navbox.is-open {
   display: -webkit-box;
@@ -260,7 +311,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0;
+  margin-right: 15px;
   padding: 0;
   background-color: transparent;
   border: transparent;
@@ -283,57 +334,6 @@
 
 .moddiv_bat.is-open .mobdiv_cros {
   display: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  margin: 0;
-  color: #757575;
-  font-family: Roboto, sans-serif;
-  background-color: white;
-  letter-spacing: 0.03em;
-}
-
-:root {
-  --main-bg-color: #ffffff;
-  --dg-sacond-color: #2f303a;
-  --text-main-color: #757575;
-  --hov-foc-color: #2196f3;
-  --hov-foc-exclusiv: #188ce8;
-  --text-dec-black: #212121;
-  --text-rgb-a: rgba(255, 255, 255, 0.6);
-  --text-bg-dop: #f5f4fa;
-}
-
-.container {
-  outline: 1px solid greenyellow;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }
 
 /*------------BLOCK SOLUTIONS--------------*/
