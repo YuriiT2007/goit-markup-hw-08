@@ -59,7 +59,11 @@
   }
 }
 .pi {
-  display: none;
+  // @media screen and (max-width: 480px) {
+  //   display: none;
+  // }
+  border: 6px solid pink;
+
   &.is-open {
     display: flex;
     flex-direction: column;
@@ -70,20 +74,21 @@
     height: 796px;
     background-color: pink;
   }
-  .navbox {
-    // display: none;
-    // color: var(--text-dec-black);
-    // list-style: none;
-    // display: flex;
-    // margin-left: 93px;
+}
+.navbox {
+  // display: none;
+  // color: var(--text-dec-black);
+  // list-style: none;
+  // display: flex;
+  // margin-left: 93px;
 
-    // position: absolute;
-    // width: 150px;
-    // height: 796px;
-    // background-color: #ffffff;
-    margin-bottom: 300px;
-    border: 2px solid black;
-  }
+  // position: absolute;
+  // width: 150px;
+  // height: 796px;
+  // background-color: #ffffff;
+  margin-bottom: 300px;
+  border: 2px solid black;
+
   &.is-open {
     display: flex;
     padding-top: 48px;
@@ -206,10 +211,6 @@
 
   display: flex;
   justify-content: space-between;
-
-  // @media screen and (min-width: 768px) {
-  //   background-color: yellow;
-  //   // width: 480px;
 }
 
 .moddiv_bat {
@@ -220,12 +221,10 @@
   border: transparent;
   margin-left: 276px;
   z-index: 5;
+  // @media screen and (max-width: 480px) {
+  //   background-color: rebeccapurple;
+  // }
 }
-// margin-top: 10px;
-
-// @media screen and (min-width: 768px) {
-//   display: none;
-// }
 
 .mobdiv_icon {
   width: 40px;

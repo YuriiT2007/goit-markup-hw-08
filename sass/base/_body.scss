@@ -28,7 +28,6 @@ body {
 }
 
 .container {
-  // width: 1200px;
   outline: 1px solid greenyellow;
   margin: 0 auto;
   padding-left: 15px;
@@ -36,16 +35,10 @@ body {
   @media screen and (min-width: 480px) {
     width: 480px;
   }
-  // @media screen and (min-width: 480px) {
-  //   width: 480px;
-  //   background-color: aqua;
-  // }
-  // @media screen and (min-width: 768px) {
-  //   width: 768px;
-  //   background-color: yellow;
-  // }
-  // @media screen and (min-width: 1140px) {
-  //   width: 1140px;
-  //   background-color: pink;
-  // }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }

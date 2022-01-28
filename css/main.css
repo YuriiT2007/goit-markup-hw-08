@@ -41,6 +41,18 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .header-nav {
   background-color: var(--main-bg-color);
   display: -webkit-box;
@@ -121,12 +133,12 @@ body {
   background-color: pink;
 }
 
-.pi .navbox {
+.navbox {
   margin-bottom: 300px;
   border: 2px solid black;
 }
 
-.pi.is-open {
+.navbox.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
