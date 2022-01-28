@@ -14,7 +14,6 @@
 })();
 
 
-
 (() => {
     const menuBtnRef = document.querySelector("[date-menu-button]");
     const mobileMenuRef = document.querySelector("[data-menu");
