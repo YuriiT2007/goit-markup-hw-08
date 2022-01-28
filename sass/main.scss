@@ -1,15 +1,14 @@
 @import "./utils/variables";
-@import "./base/body";
 
-// @import "./components/pageheader_mob";
-@import "./c;
+@import "./components/pageheader";
+
+@import "./base/body";
 @import "./components/solutions_mob";
-// @import "./components/solutions";
+
 @import "./components/property_mob";
-// @import "./components/property";
 
 @import "./components/samesing";
-// @import "./components/team";
+
 @import "./components/tiam_mob";
 
 @import "./components/customers";
@@ -19,4 +18,5 @@
 @import "./components/buttons";
 
 @import "./components/pictures";
+
 @import "./utils/breakpoints";
