@@ -19,6 +19,10 @@ footer {
 
   margin-left: auto;
   margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: 76px;
+    margin-right: 165px;
+  }
 }
 .footerbox__foot-link {
   text-decoration: none;
@@ -109,6 +113,10 @@ footer {
 
   margin-left: 29px;
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: auto;
+  }
 }
 .blok-connect_connekt {
   display: inline-block;
@@ -182,6 +190,9 @@ footer {
   // margin-left: 93px;
 
   margin-left: 15px;
+  @media screen and (min-width: 768px) {
+    margin-left: 145px;
+  }
 }
 
 .footer-sect__futimp {

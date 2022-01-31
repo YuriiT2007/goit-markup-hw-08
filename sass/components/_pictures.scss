@@ -9,6 +9,13 @@
   // padding-bottom: 94px;
   padding-bottom: 30px;
   list-style: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    margin: 0;
+    gap: 30px;
+  }
 }
 .sales-unit__list {
   // display: flex;
@@ -17,6 +24,11 @@
   // flex-basis: calc(100% / 3 - 30px);
 
   margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    padding: 0;
+    flex-basis: calc(100% / 2 - 30px);
+  }
 }
 .sales-unit__link {
   text-decoration: none;
@@ -73,6 +85,9 @@ img {
 .sales-unit__foto-a {
   margin-bottom: 0px;
   display: block;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
 }
 
 .sales-unit__contentdiv {

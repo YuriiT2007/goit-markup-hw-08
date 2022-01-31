@@ -1260,6 +1260,12 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) {
+  .footerbox {
+    margin-left: 76px;
+    margin-right: 165px;
+  }
+}
 
 .footerbox__foot-link {
   text-decoration: none;
@@ -1346,6 +1352,12 @@ footer {
   height: 80px;
   margin-left: 29px;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .blok-connect {
+    margin-left: 0;
+    margin-right: auto;
+  }
 }
 
 .blok-connect_connekt {
@@ -1435,6 +1447,11 @@ footer {
   width: auto;
   margin-left: 15px;
 }
+@media screen and (min-width: 768px) {
+  .blok-futcon {
+    margin-left: 145px;
+  }
+}
 
 .footer-sect__futimp {
   height: 50px;
@@ -1499,6 +1516,11 @@ footer {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .section-but {
+    padding-bottom: 25px;
+  }
+}
 
 .pushbutton {
   list-style: none;
@@ -1507,6 +1529,11 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .pushbutton {
+    margin-left: 79px;
+  }
 }
 
 .pushbutton__butli {
@@ -1551,9 +1578,29 @@ footer {
   padding-bottom: 30px;
   list-style: none;
 }
+@media screen and (min-width: 768px) {
+  .sales-unit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 60px;
+    margin: 0;
+    gap: 30px;
+  }
+}
 
 .sales-unit__list {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .sales-unit__list {
+    margin: 0;
+    padding: 0;
+    -ms-flex-preferred-size: calc(100% / 2 - 30px);
+        flex-basis: calc(100% / 2 - 30px);
+  }
 }
 
 .sales-unit__link {
@@ -1621,6 +1668,11 @@ img {
 .sales-unit__foto-a {
   margin-bottom: 0px;
   display: block;
+}
+@media screen and (min-width: 768px) {
+  .sales-unit__foto-a {
+    width: 354px;
+  }
 }
 
 .sales-unit__contentdiv {
