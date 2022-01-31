@@ -1144,6 +1144,11 @@ textarea:hover, textarea:focus {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .section-klient {
+    padding-bottom: 60px;
+  }
+}
 
 .wrapper {
   font-family: Roboto;
@@ -1155,6 +1160,11 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    font-size: 28px;
+  }
 }
 
 .division {
@@ -1168,6 +1178,12 @@ textarea:hover, textarea:focus {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .division {
+    margin: 0;
+    gap: 30px;
+  }
+}
 
 .division__list {
   width: 210px;
@@ -1177,6 +1193,13 @@ textarea:hover, textarea:focus {
   margin-left: 15px;
   margin-bottom: 15px;
   margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .division__list {
+    width: 226px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .division__link {
