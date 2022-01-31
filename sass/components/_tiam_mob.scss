@@ -5,7 +5,6 @@
   //   padding-bottom: 94px;
   padding-bottom: 60px;
   padding-top: 60px;
-  background-color: aqua;
 }
 .doing__what-we-are-doing {
   text-align: center;
@@ -17,6 +16,11 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #212121;
+  // @media screen and (min-width: 768px) {
+  //   margin-bottom: 15px;
+  //   margin: 0;
+  //   padding: 0;
+  // }
 }
 .partition__together-team {
   list-style: none;
@@ -28,9 +32,13 @@
     flex-direction: column;
   }
   @media screen and (min-width: 768px) {
-    background-color: yellow;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    // padding-left: -15px;
+    // padding-right: -15px;
   }
 }
 .partition__portfol {
@@ -41,17 +49,17 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   @media screen and (min-width: 768px) {
-    background-color: burlywood;
+    // margin: 15px;
     margin: 0;
-    padding: 0;
-    flex-basis: calc(100% / 2 - 0px);
-
-    // flex-basis: calc(100% / 2 - 30px);
-    // width: calc(100% / 2 - 30px);
+    flex-basis: calc(100% / 2 - 15px);
   }
 }
 .partition__portfol:last-child {
   margin-right: 0px;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    flex-basis: calc(100% / 2 - 15px);
+  }
 }
 .partition__divtext {
   padding-top: 30px;
@@ -79,9 +87,6 @@
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-align: center;
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
 }
 .partition__prof {
   font-weight: normal;

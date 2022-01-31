@@ -973,7 +973,6 @@ textarea:hover, textarea:focus {
   background: var(--text-bg-dop);
   padding-bottom: 60px;
   padding-top: 60px;
-  background-color: aqua;
 }
 
 .doing__what-we-are-doing {
@@ -1005,12 +1004,14 @@ textarea:hover, textarea:focus {
 }
 @media screen and (min-width: 768px) {
   .partition__together-team {
-    background-color: yellow;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
   }
 }
 
@@ -1024,16 +1025,21 @@ textarea:hover, textarea:focus {
 }
 @media screen and (min-width: 768px) {
   .partition__portfol {
-    background-color: burlywood;
     margin: 0;
-    padding: 0;
-    -ms-flex-preferred-size: calc(100% / 2 - 0px);
-        flex-basis: calc(100% / 2 - 0px);
+    -ms-flex-preferred-size: calc(100% / 2 - 15px);
+        flex-basis: calc(100% / 2 - 15px);
   }
 }
 
 .partition__portfol:last-child {
   margin-right: 0px;
+}
+@media screen and (min-width: 768px) {
+  .partition__portfol:last-child {
+    margin: 0;
+    -ms-flex-preferred-size: calc(100% / 2 - 15px);
+        flex-basis: calc(100% / 2 - 15px);
+  }
 }
 
 .partition__divtext {
@@ -1068,11 +1074,6 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .partition__name {
-    font-size: 18px;
-  }
 }
 
 .partition__prof {
