@@ -23,6 +23,11 @@ footer {
     margin-left: 76px;
     margin-right: 165px;
   }
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 70px;
+    margin-bottom: 0;
+  }
 }
 .footerbox__foot-link {
   text-decoration: none;
@@ -117,6 +122,10 @@ footer {
     margin-left: 0;
     margin-right: auto;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+    margin-right: 93px;
+  }
 }
 .blok-connect_connekt {
   display: inline-block;
@@ -193,8 +202,15 @@ footer {
   @media screen and (min-width: 768px) {
     margin-left: 145px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
 }
-
+.blok-futcon_connekt {
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
+}
 .footer-sect__futimp {
   // width: 358px;
   height: 50px;
@@ -211,6 +227,11 @@ footer {
   color: var(--text-bg-dop);
 
   margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 .footer-sect__but-futsend {
@@ -236,6 +257,10 @@ footer {
   transition-property: var(--hov-foc-color);
 
   margin-left: 137px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
+    padding: 0;
+  }
 }
 
 .footer-sect__svg-flight {

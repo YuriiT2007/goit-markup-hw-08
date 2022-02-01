@@ -1379,6 +1379,12 @@ textarea:hover, textarea:focus {
     padding-bottom: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .section-klient {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
 
 .wrapper {
   font-family: Roboto;
@@ -1394,6 +1400,12 @@ textarea:hover, textarea:focus {
 @media screen and (min-width: 768px) {
   .wrapper {
     font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1414,6 +1426,19 @@ textarea:hover, textarea:focus {
     gap: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .division {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+  }
+}
 
 .division__list {
   width: 210px;
@@ -1429,6 +1454,15 @@ textarea:hover, textarea:focus {
     width: 226px;
     margin: 0;
     padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .division__list {
+    width: 170px;
+    height: 92px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 }
 
@@ -1494,6 +1528,13 @@ footer {
   .footerbox {
     margin-left: 76px;
     margin-right: 165px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerbox {
+    margin-left: 0;
+    margin-right: 70px;
+    margin-bottom: 0;
   }
 }
 
@@ -1589,6 +1630,12 @@ footer {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .blok-connect {
+    margin-left: 0;
+    margin-right: 93px;
+  }
+}
 
 .blok-connect_connekt {
   display: inline-block;
@@ -1682,6 +1729,17 @@ footer {
     margin-left: 145px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .blok-futcon {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .blok-futcon_connekt {
+    margin-left: 0;
+  }
+}
 
 .footer-sect__futimp {
   height: 50px;
@@ -1699,6 +1757,13 @@ footer {
   margin-right: 12px;
   color: var(--text-bg-dop);
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-sect__futimp {
+    width: 358px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 .footer-sect__but-futsend {
@@ -1723,6 +1788,12 @@ footer {
   -webkit-transition-property: var(--hov-foc-color);
   transition-property: var(--hov-foc-color);
   margin-left: 137px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-sect__but-futsend {
+    margin-left: 12px;
+    padding: 0;
+  }
 }
 
 .footer-sect__svg-flight {
