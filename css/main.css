@@ -90,6 +90,12 @@ body {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .main-nav {
+    margin-left: 200px;
+    margin-right: 0;
+  }
+}
 
 .mobdiv {
   border: 1px solid transparent;
@@ -228,6 +234,12 @@ body {
     margin: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .pi {
+    margin-left: 93px;
+    margin-right: 0;
+  }
+}
 
 .navbox {
   list-style: none;
@@ -251,6 +263,11 @@ body {
     display: flex;
     list-style: none;
     margin-bottom: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbox {
+    margin-right: 100px;
   }
 }
 
@@ -303,6 +320,12 @@ body {
     padding-top: 28px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .navbox__link {
+    margin: 0;
+    padding-top: 32px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .comynication {
@@ -324,6 +347,11 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbox__boxin {
+    margin-bottom: 0;
   }
 }
 
@@ -358,6 +386,17 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: 35px;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -434,9 +473,20 @@ body {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contact .contact__linka {
+    padding: 0;
+    margin: 0;
+  }
+}
 
 .contact__linka:last-child {
   margin-right: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .contact__linka:last-child {
+    margin-right: 30px;
+  }
 }
 
 .navbox__link:hover,
@@ -452,11 +502,25 @@ body {
     font-size: 14px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .navbox__link:hover,
+.navbox__link:focus {
+    fill: var(--hov-foc-color);
+    font-size: 14px;
+  }
+}
 
 .contact__linka:hover,
 .contact__linka:focus {
   fill: var(--hov-foc-color);
   font-size: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .contact__linka:hover,
+.contact__linka:focus {
+    fill: var(--hov-foc-color);
+    font-size: 14px;
+  }
 }
 
 .contact__telsvg {

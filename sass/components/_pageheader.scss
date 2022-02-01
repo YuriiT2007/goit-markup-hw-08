@@ -25,6 +25,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: 200px;
+    margin-right: 0;
+  }
 }
 .mobdiv {
   border: 1px solid transparent;
@@ -133,9 +137,12 @@
     background-color: #ffffff;
     display: block;
     display: flex;
-
     height: 100%;
     margin: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+    margin-right: 0;
   }
 }
 .navbox {
@@ -163,6 +170,9 @@
     display: flex;
     list-style: none;
     margin-bottom: none;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 100px;
   }
 }
 .span {
@@ -213,6 +223,10 @@
     padding-bottom: 32px;
     padding-top: 28px;
   }
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    padding-top: 32px;
+  }
 }
 .comynication {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -234,6 +248,9 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     margin-left: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
   }
 }
 .navbox--current {
@@ -259,6 +276,12 @@
     padding-top: 3px;
     display: flex;
     flex-direction: column-reverse;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    margin-left: 35px;
+    padding: 0;
+    margin: 0;
   }
 }
 .mobset {
@@ -317,9 +340,16 @@
     color: #757575;
     margin-top: 0;
   }
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+    margin: 0;
+  }
 }
 .contact__linka:last-child {
   margin-right: 0px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
+  }
 }
 .navbox__link:hover,
 .navbox__link:focus {
@@ -330,11 +360,19 @@
     fill: var(--hov-foc-color);
     font-size: 14px;
   }
+  @media screen and (min-width: 1200px) {
+    fill: var(--hov-foc-color);
+    font-size: 14px;
+  }
 }
 .contact__linka:hover,
 .contact__linka:focus {
   fill: var(--hov-foc-color);
   font-size: 40px;
+  @media screen and (min-width: 1200px) {
+    fill: var(--hov-foc-color);
+    font-size: 14px;
+  }
 }
 .contact__telsvg {
   display: none;
