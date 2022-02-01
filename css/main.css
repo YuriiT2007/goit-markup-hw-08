@@ -267,7 +267,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .navbox {
-    margin-right: 100px;
+    margin-right: 50px;
   }
 }
 
@@ -318,12 +318,14 @@ body {
     position: relative;
     padding-bottom: 32px;
     padding-top: 28px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
   .navbox__link {
     margin: 0;
     padding-top: 32px;
+    font-size: 14px;
   }
 }
 
@@ -331,6 +333,7 @@ body {
   .comynication {
     padding: 0;
     margin: 0;
+    font-size: 14px;
   }
 }
 
@@ -581,6 +584,12 @@ body {
     max-width: 360px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .solution-business {
+    font-size: 44px;
+    max-width: 696px;
+  }
+}
 
 .ordservis {
   color: var(--main-bg-color);
@@ -636,6 +645,12 @@ body {
   width: 450px;
   height: 609px;
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 
 .formfild__closebat {
   position: absolute;
@@ -666,6 +681,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .formfild {
+    width: 528px;
+  }
 }
 
 .formfild__form-grup {
@@ -698,6 +718,11 @@ body {
           box-sizing: border-box;
   padding: 0;
   padding-left: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .formfild__form-grup input {
+    width: 448px;
+  }
 }
 
 .formfild__testone:hover,
@@ -783,6 +808,12 @@ textarea:not(:placeholder-shown) {
           transform: translateX(-356px);
   margin-top: 14px;
 }
+@media screen and (min-width: 1200px) {
+  .formfild__fon {
+    -webkit-transform: translateX(-434.5px);
+            transform: translateX(-434.5px);
+  }
+}
 
 .formfild__form-grup:hover,
 .formfild__form-grup:focus {
@@ -809,6 +840,11 @@ textarea {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  textarea {
+    width: 448px;
+  }
 }
 textarea:hover, textarea:focus {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -879,6 +915,12 @@ textarea:hover, textarea:focus {
   margin-right: 2px;
   margin-left: 2px;
 }
+@media screen and (min-width: 1200px) {
+  .formfild__chekblue {
+    margin-right: 9px;
+    margin-left: 10px;
+  }
+}
 
 .formfild__task input:checked + .formfild__chekblue {
   background-image: url(../images/ichecki.svg);
@@ -894,6 +936,11 @@ textarea:hover, textarea:focus {
   font-weight: 400;
   letter-spacing: 0.03em;
   display: bloc;
+}
+@media screen and (min-width: 1200px) {
+  .formfild__sogltex {
+    font-size: 14px;
+  }
 }
 
 .formfild__yslovi {
