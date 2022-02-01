@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  outline: 1px solid greenyellow;
+  outline: 3px solid greenyellow;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -92,7 +92,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .main-nav {
-    margin-left: 200px;
+    margin-left: 0;
     margin-right: 0;
   }
 }
@@ -397,9 +397,8 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-left: 35px;
+    margin-left: 210px;
     padding: 0;
-    margin: 0;
   }
 }
 
@@ -986,7 +985,7 @@ textarea:hover, textarea:focus {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .module {
     background-color: #ffffff;
     padding-top: 60px;
@@ -1002,6 +1001,14 @@ textarea:hover, textarea:focus {
     max-width: 768px;
     margin: 0 auto;
     grid-gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .module {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
   }
 }
 
@@ -1048,6 +1055,12 @@ textarea:hover, textarea:focus {
 @media screen and (min-width: 768px) {
   .module__icomfive {
     width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .module__icomfive {
+    width: 270px;
+    height: 120px;
   }
 }
 
