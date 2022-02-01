@@ -5,6 +5,11 @@
   //   padding-bottom: 94px;
   padding-bottom: 60px;
   padding-top: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .doing__what-we-are-doing {
   text-align: center;
@@ -16,11 +21,11 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #212121;
-  // @media screen and (min-width: 768px) {
-  //   margin-bottom: 15px;
-  //   margin: 0;
-  //   padding: 0;
-  // }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
 }
 .partition__together-team {
   list-style: none;
@@ -39,6 +44,10 @@
     gap: 30px;
     // padding-left: -15px;
     // padding-right: -15px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: initial;
   }
 }
 .partition__portfol {
@@ -76,6 +85,10 @@
   @media screen and (min-width: 768px) {
     width: 100%;
     height: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 260px;
   }
 }
 .partition__name {
