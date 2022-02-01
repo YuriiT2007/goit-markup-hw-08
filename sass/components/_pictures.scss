@@ -16,6 +16,10 @@
     margin: 0;
     gap: 30px;
   }
+  @media screen and (min-width: 1200px) {
+    padding-top: 50px;
+    padding-bottom: 94px;
+  }
 }
 .sales-unit__list {
   // display: flex;
@@ -28,6 +32,11 @@
     margin: 0;
     padding: 0;
     flex-basis: calc(100% / 2 - 30px);
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    padding: 0;
+    flex-basis: calc(100% / 3 - 30px);
   }
 }
 .sales-unit__link {
@@ -87,6 +96,10 @@ img {
   display: block;
   @media screen and (min-width: 768px) {
     width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+    height: 294px;
   }
 }
 
