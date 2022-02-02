@@ -23,64 +23,65 @@
     <!------------------ BLOCK NAVIGATION -------------------->
     
     <header class="header-nav container">
+
+    <nav class="main-nav">
+      
+      <div class="mobdiv">
+     
+        <a href="/" class="link-studio"> <span class="logoone">Web</span><span class="logoand">Studio</span></a>
+     
+
+       <button type="button" class="moddiv_bat is-open" date-menu-button aria-expanded="true">
+      <svg class="mobdiv_icon" aria-label="переключатель мобильного меню">
+        <use class="mobdiv_cros" href="images/closlitell.svg#icon-close_litle"></use>
+        <use class="mobdiv_menu" href="images/symbol-defsу.svg#icon-menu_sticks"></use>
+      </svg>
+      </button>
+      </div>
+</nav>
+
+  <div class="pi" data-menu>
+      <ul class="navbox">
+        <li><a href="./index.html" class="navbox__link navbox__boxin navbox--current">Студия</a></li>
+        <li><a href="./portfolio.html" class="navbox__link navbox__boxin ">Портфолио</a></li>
+        <li><a href="" class="navbox__link navbox__boxin">Контакты</a></li>
+      </ul>
     
-        <nav class="main-nav">
-    
-            <div class="mobdiv">
-    
-                <a href="/" class="link-studio"> <span class="logoone">Web</span><span class="logoand">Studio</span></a>
-    
-    
-                <button type="button" class="moddiv_bat is-open" date-menu-button aria-expanded="true">
-                    <svg class="mobdiv_icon" aria-label="переключатель мобильного меню">
-                        <use class="mobdiv_cros" href="images/closlitell.svg#icon-close_litle"></use>
-                        <use class="mobdiv_menu" href="images/symbol-defsу.svg#icon-menu_sticks"></use>
-                    </svg>
-                </button>
-            </div>
-        </nav>
-    
-        <div class="pi" data-menu>
-            <ul class="navbox">
-                <li><a href="./index.html" class="navbox__link navbox__boxin">Студия</a></li>
-                <li><a href="./portfolio.html" class="navbox__link navbox__boxin navbox--current ">Портфолио</a></li>
-                <li><a href="" class="navbox__link navbox__boxin">Контакты</a></li>
-            </ul>
-    
-            <ul class="contact">
-    
-                <li class="contact__linka"><a href="tel:+380961111111" class="navbox__link comynication">
-    
-    
-                        <svg class="contact__phonesvg">
-    
-                            <use href="images/symbol-defs.svg#icon-phone"></use>
-    
-                        </svg>
-    
-                        +38 096 111 11 11</a></li>
-    
-                <li class="contact__linka"><a href="mailto:info@devstudio.com " class="navbox__link comynication">
-    
-    
-                        <svg class="contact__telsvg">
-    
-                            <use href="images/symbol-defs.svg#icon-mail"></use>
-    
-                        </svg>
-    
-    
-    
-                        info@devstudio.com</a></li>
-            </ul>
-            <ul class="mobset">
-                <li class="mobset_li"><a htef="/" class="mobset_link">Instagram</a></li>
-                <li class="mobset_li"><a htef="/" class="mobset_link">Twitter</a></li>
-                <li class="mobset_li"><a htef="/" class="mobset_link">Facebook</a></li>
-                <li class="mobset_li"><a htef="/" class="mobset_link">LinkedIn</a></li>
-            </ul>
-        </div>
-    </header>
+    <ul class="contact">
+      
+        <li class="contact__linka"><a href="tel:+380961111111" class="navbox__link comynication">
+
+
+          <svg class="contact__phonesvg">
+
+            <use href="images/symbol-defs.svg#icon-phone"></use>
+
+          </svg>
+
+             +38 096 111 11 11</a></li>
+
+          <li class="contact__linka"><a href="mailto:info@devstudio.com " class="navbox__link comynication">
+          
+          
+              <svg class="contact__telsvg">
+          
+                <use href="images/symbol-defs.svg#icon-mail"></use>
+          
+              </svg>
+          
+          
+          
+              info@devstudio.com</a></li>
+    </ul>
+    <ul class="mobset">
+      <li class="mobset_li"><a htef="/"class="mobset_link">Instagram</a></li>
+      <li class="mobset_li"><a htef="/" class="mobset_link">Twitter</a></li>
+      <li class="mobset_li"><a htef="/" class="mobset_link">Facebook</a></li>
+      <li class="mobset_li"><a htef="/" class="mobset_link">LinkedIn</a></li>
+    </ul>
+    </div>
+  </header>
+
     
     <!---------------- BLOCK NAVIGATION AND ------------------------>
 
@@ -109,9 +110,16 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
+                    <div class="sales-unit__inner"> 
 
-                        <img src="./images/portfolio/peoplethree.jpg" class="sales-unit__foto-a" alt="peoplethree" width="370">
+                        <img srcset="
+                         ./images/pictures/portf/2/imgport_2_1x_480.jpg 1x,
+                         ./images/pictures/portf/2/imgport_2_2x_480@2x.jpg 2x,
+                         ./images/pictures/portf/2/imgport_2_1x_768.jpg 1x,
+                         ./images/pictures/portf/2/imgport_2_2x_768@2x.jpg 2x,
+                         ./images/pictures/portf/2/imgport_2_1x_1200.jpg 1x,
+                         ./images/pictures/portf/2/imgport_2_2x_1200@2x.jpg 2x"
+                          class="sales-unit__foto-a" alt="peoplethree" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -128,8 +136,15 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
-                        <img src="./images/portfolio/basketball.jpg" class="sales-unit__foto-a" alt="basketball" width="370">
+                    <div class="sales-unit__inner"> 
+                        <img srcset="
+                        ./images/pictures/portf/1/imgport_1_1x_480.jpg 1x,
+                        ./images/pictures/portf/1/imgport_1_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/1/imgport_1_1x_768.jpg 1x,
+                        ./images/pictures/portf/1/imgport_1_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/1/imgport_1_1x_1200.jpg 1x,
+                        ./images/pictures/portf/1/imgport_1_2x_1200@2x.jpg 2x" 
+                        class="sales-unit__foto-a" alt="basketball" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -138,7 +153,7 @@
 
                     </div>
                     <div class="sales-unit__contentdiv">
-                        <h2 class="sales-unit__know-how">Постер Orlean vs Golden Star</h2>
+                        <h2 class="sales-unit__know-how">Постер New Orlean vs Golden Star</h2>
                         <p class="sales-unit__instrument-veb">Дизайн</p>
                     </div>
                 </a>
@@ -147,8 +162,15 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
-                        <img src="./images/portfolio/seafood.jpg" class="sales-unit__foto-a" alt="seafood" width="370">
+                    <div class="sales-unit__inner"> 
+                        <img srcset="
+                        ./images/pictures/portf/3/imgport_3_1x_480.jpg 1x,
+                        ./images/pictures/portf/3/imgport_3_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/3/imgport_3_1x_768.jpg 1x,
+                        ./images/pictures/portf/3/imgport_3_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/3/imgport_3_1x_1200.jpg 1x,
+                        ./images/pictures/portf/3/imgport_3_2x_1200@2x.jpg 2x" 
+                        class="sales-unit__foto-a" alt="seafood" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -166,7 +188,14 @@
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
                     <div class="sales-unit__inner">
-                        <img src="./images/portfolio/headphones.jpg" class="sales-unit__foto-a" alt="headphones" width="370">
+                        <img srcset="
+                        ./images/pictures/portf/4/imgport_4_1x_480.jpg 1x,
+                        ./images/pictures/portf/4/imgport_4_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/4/imgport_4_1x_768.jpg 1x,
+                        ./images/pictures/portf/4/imgport_4_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/4/imgport_4_1x_1200.jpg 1x,
+                        ./images/pictures/portf/4/imgport_4_2x_1200@2x.jpg 2x"
+                        class="sales-unit__foto-a" alt="headphones" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -184,7 +213,15 @@
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
                     <div class="sales-unit__inner">
-                        <img src="./images/portfolio/boxes.jpg" class="sales-unit__foto-a" alt="boxes" width="370">
+                        <img srcset="
+                         ./images/pictures/portf/5/imgport_5_1x_480.jpg 1x,
+                        ./images/pictures/portf/5/imgport_5_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/5/imgport_5_1x_768.jpg 1x,
+                        ./images/pictures/portf/5/imgport_5_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/5/imgport_5_1x_1200.jpg 1x,
+                        ./images/pictures/portf/5/imgport_5_2x_1200@2x.jpg 2x"
+
+                         class="sales-unit__foto-a" alt="boxes" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -201,8 +238,15 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
-                        <img src="./images/portfolio/screen.jpg" class="sales-unit__foto-a" alt="screen" width="370">
+                    <div class="sales-unit__inner"> 
+                        <img srcset="
+                       ./images/pictures/portf/6/imgpotr_6_1x_480.jpg 1x,
+                       ./images/pictures/portf/6/imgpotr_6_2x_480@2x.jpg 2x,
+                       ./images/pictures/portf/6/imgport_6_1x_768.jpg 1x,
+                       ./images/pictures/portf/6/imgport_6_2x_768@2x.jpg 2x,
+                       ./images/pictures/portf/6/imgport_6_1x_1200.jpg 1x,
+                       ./images/pictures/portf/6/imgport_6_2x_1200@2x.jpg 2x"
+                       class="sales-unit__foto-a" alt="screen" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -219,8 +263,16 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
-                        <img src="./images/portfolio/magazine.jpg" class="sales-unit__foto-a" alt="magazine" width="370">
+                    <div class="sales-unit__inner"> 
+                        <img srcset="
+                        ./images/pictures/portf/7/imgport_7_1x_480.jpg 1x,
+                        ./images/pictures/portf/7/imgport_7_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/7/imgport_7_1x_768.jpg 1x,
+                        ./images/pictures/portf/7/imgport_7_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/7/imgport-7_1x_1200.jpg 1x,
+                        ./images/pictures/portf/7/imgport_7_2x_1200@2x.jpg 2x"
+                        
+                        class="sales-unit__foto-a" alt="magazine" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -238,7 +290,15 @@
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
                     <div class="sales-unit__inner">
-                        <img src="./images/portfolio/lable.jpg" class="sales-unit__foto-a" alt="lable" width="370">
+                        <img srcset="
+                        ./images/pictures/portf/8/imgport_8_1x_480.jpg 1x,
+                        ./images/pictures/portf/8/imgport_8_2x_480@2x.jpg 2x,
+                        ./images/pictures/portf/8/imgport_8_1x_768.jpg 1x,
+                        ./images/pictures/portf/8/imgport_8_2x_768@2x.jpg 2x,
+                        ./images/pictures/portf/8/imgport_8_1x_1200.jpg 1x,
+                        ./images/pictures/portf/8/imgport_8_2x_1200@2x.jpg 2x" 
+                        
+                        class="sales-unit__foto-a" alt="lable" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -255,8 +315,16 @@
 
             <li class="sales-unit__list">
                 <a href="" class="sales-unit__link">
-                    <div class="sales-unit__inner">
-                        <img src="./images/portfolio/laptop.jpg" class="sales-unit__foto-a" alt="laptop" width="370">
+                    <div class="sales-unit__inner"><img src="" alt="">
+                        <img srcset="
+                       ./images/pictures/portf/9/imgport_9_2x_480.jpg 1x,
+                       ./images/pictures/portf/9/imgport_9_2x_480@2x.jpg 2x,
+                       ./images/pictures/portf/9/imgport_9_1x_768.jpg 1x,
+                       ./images/pictures/portf/9/imgport_9_2x_768@2x.jpg 2x,
+                       ./images/pictures/portf/9/imgport_9_1x_1200.jpg 1x,
+                       ./images/pictures/portf/9/imgport_9_2x_1200@2x.jpg 2x"
+                       
+                       class="sales-unit__foto-a" alt="laptop" width="370">
                         <div class="sales-unit__overlay">
                             <p class="sales-unit__textloren">Технокряк это современная площадка распространения коронавируса.
                                 Компании используют эту платформу для цифрового
@@ -370,7 +438,7 @@
     </footer>
     <script src="./js/modal.js"></script>
     </body>
-    </body>
+
     
     </html>
     <!----------------------BLOCK FOOTER AND----------->
