@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  outline: 3px solid greenyellow;
+  outline: 3px solid transparent;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -559,8 +559,8 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Imgfotomain.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgfotomain.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/hir1x480.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/hir1x480.jpg);
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-size: cover;
@@ -568,20 +568,32 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .solutions {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url() url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url() url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .solutions {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Imgfotomain.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgfotomain.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/hir1x760.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/hir1x760.jpg);
   }
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .solutions {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url() url(../);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url() url(../);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/hir2x760@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/hir2x760@2x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .solutions {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/Imghir1x1200.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/Imghir1x1200.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .solutions {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/pictures/index1/hiro/Imghir2x1200@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/pictures/index1/hiro/Imghir2x1200@2x.jpg);
   }
 }
 
@@ -1099,6 +1111,7 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .module__exersise {
@@ -1967,6 +1980,17 @@ footer {
   -webkit-transition-property: var(--hov-foc-color);
   transition-property: var(--hov-foc-color);
 }
+@media screen and (min-width: 768px) {
+  .sales-unit__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .sales-unit__link:hover {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1978,6 +2002,7 @@ footer {
   margin-bottom: 0px;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .sales-unit__overlay {
@@ -1993,7 +2018,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 101%;
   color: white;
   background-color: var(--hov-foc-color);
   padding-top: 63px;
@@ -2063,6 +2088,12 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .web {
+    margin-bottom: 35px;
+  }
 }
 
 /*-----------------BLOCK PICTURES AND---------------*//*# sourceMappingURL=main.css.map */

@@ -44,6 +44,11 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    // background-color: brown;
+  }
   &:hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -55,6 +60,7 @@
   margin-bottom: 0px;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 .sales-unit__overlay {
   display: inline-block;
@@ -65,7 +71,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 101%;
   color: white;
   background-color: var(--hov-foc-color);
   padding-top: 63px;
@@ -106,11 +112,17 @@ img {
 .sales-unit__contentdiv {
   padding-top: 20px;
   padding-right: 24px;
+
   padding-left: 24px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  // @media screen and (min-width: 768px) {
+  //   // flex-grow: 1;
+  //   background-color: aqua;
+  //   flex: 1 1;
+  // }
 }
 .sales-unit__know-how {
   color: var(--text-dec-black);
@@ -127,5 +139,9 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-
+.web {
+  @media screen and (min-width: 768px) and(max-width:1199px) {
+    margin-bottom: 35px;
+  }
+}
 /*-----------------BLOCK PICTURES AND---------------*/

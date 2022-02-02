@@ -12,7 +12,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/Imgfotomain.jpg);
+    url(../images/pictures/index1/hiro/hir1x480.jpg);
 
   background-color: #c4c4c4;
   background-repeat: no-repeat;
@@ -24,30 +24,49 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-       url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
+      url(../images/pictures/index1/hiro/hir2x480@2x.jpg);
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../im);
-  
- @media (min-device-pixel-ratio: 2),
-            (-webkit-min-device-pixel-ratio: 2),
-            (min-resolution: 192dpi),
-            (min-resolution: 2dppx){
-                background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-        url(../images/mobile_480/bghero_480@2x.jpg);
-            } 
-}
+      url(../images/pictures/index1/hiro/hir1x760.jpg);
 
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/pictures/index1/hiro/hir2x760@2x.jpg);
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/pictures/index1/hiro/Imghir1x1200.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/pictures/index1/hiro/Imghir2x1200@2x.jpg);
+    }
+  }
+}
 .solution-business {
   color: var(--main-bg-color);
   font-family: Roboto;
